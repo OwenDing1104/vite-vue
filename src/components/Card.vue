@@ -22,5 +22,56 @@ import { ref } from 'vue'
 </template>
 
 <style scoped>
+  .card {
+    max-width: 400px;
+    margin: 12px;
+    background-color: pink;
+    text-align: center;
+    padding:6px ;
+    border-radius: 6px;
+  }
+  /*The heading setting in the card*/
+  .card h1{
+    font-size: 36px ;
+    color: #CE1141;
+  }
+  /*The second heading setting in the card*/
+  .card h2{
+    font-size: 30px ;
+    color: #CE1141;
+  }
+  /*The content setting in the card*/
+  .card p{
+    font-size: 16px ;
+    color: black;
+    margin-left: 8px ;
+    margin-right: 8px ;
+  }
+  /*The image setting in the card*/
+  .card img {
+    width: 85%;
+    height:auto;
+  }
+  /*The button setting in the card*/
+  .button1 {
+    margin: 24px auto;
+  }
+  .button1 button {
+    font-size: 24px;
+    color: #CE1141;
+    background-color: white;
+    padding: 6px;
+  }
+  .button1 button:hover, .button1 button:focus {
+    color: white;
+    background-color: #CE1141;
+  }
+
+  @media screen and (max-width: 800px){
+    .detailsButton{
+      display: none;
+    }
+  }
+
 </style>
 
